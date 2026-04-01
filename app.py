@@ -20,6 +20,9 @@ def log_request_info():
 
 # Database Configuration
 def init_db():
+    print("DB_HOST:", os.getenv("DB_HOST"))
+    print("DB_USER:", os.getenv("DB_USER"))
+    print("DB_PORT:", os.getenv("DB_PORT"))
     try:
         # Connect without database first to create it if it doesn't exist
         conn = mysql.connector.connect(
