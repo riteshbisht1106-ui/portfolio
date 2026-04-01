@@ -95,3 +95,44 @@ window.addEventListener('DOMContentLoaded', () => {
 
     skillBars.forEach(bar => skillObserver.observe(bar));
 });
+
+/* ========== Contact Form Submission ========== */
+const contactForm = document.querySelector('#contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData.entries());
+
+        const submitBtn = contactForm.querySelector('input[type="submit"]');
+        const originalBtnValue = submitBtn.value;
+        submitBtn.value = "Sending...";
+        submitBtn.disabled = true;
+
+        try {
+            const response = await fetch('http://127.0.0.1:5000/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                alert(result.message);
+                contactForm.reset();
+            } else {
+                alert("Error: " + result.message);
+            }
+        } catch (error) {
+            console.error("Submission error:", error);
+            alert("Failed to send message. Please make sure the backend server is running.");
+        } finally {
+            submitBtn.value = originalBtnValue;
+            submitBtn.disabled = false;
+        }
+    });
+}
