@@ -29,7 +29,7 @@ def init_db():
             host=os.getenv('DB_HOST'),
             user=os.getenv('DB_USER'),
             password=os.getenv('DB_PASSWORD'),
-            port=int(os.getenv('DB_PORT'))  
+            port=int(os.getenv('DB_PORT',3306))  
         )
         cursor = conn.cursor()
         cursor.execute(f"CREATE DATABASE IF NOT EXISTS {os.getenv('DB_NAME')}")
