@@ -96,43 +96,12 @@ window.addEventListener('DOMContentLoaded', () => {
     skillBars.forEach(bar => skillObserver.observe(bar));
 });
 
-/* ========== Contact Form Submission ========== */
+/* ========== Contact Form Submission (Simple Reset) ========== */
 const contactForm = document.querySelector('#contact-form');
 if (contactForm) {
-    contactForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-
-        const formData = new FormData(contactForm);
-        const data = Object.fromEntries(formData.entries());
-
-        const submitBtn = contactForm.querySelector('input[type="submit"]');
-        const originalBtnValue = submitBtn.value;
-        submitBtn.value = "Sending...";
-        submitBtn.disabled = true;
-
-        try {
-            const response = await fetch('https://portfolio-qxfs.onrender.com/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            });
-
-            const result = await response.json();
-
-            if (response.ok) {
-                alert(result.message);
-                contactForm.reset();
-            } else {
-                alert("Error: " + result.message);
-            }
-        } catch (error) {
-            console.error("Submission error:", error);
-            alert("Failed to send message. Please make sure the backend server is running.");
-        } finally {
-            submitBtn.value = originalBtnValue;
-            submitBtn.disabled = false;
-        }
+    contactForm.addEventListener('submit', (e) => {
+        // Formspree handles the submission via the 'action' attribute in index.html
+        // We can add a simple message or just let it redirect
+        console.log("Form submitted to Formspree");
     });
 }
