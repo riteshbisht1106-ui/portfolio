@@ -115,6 +115,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }, { threshold: 0.5 });
 
     skillBars.forEach(bar => skillObserver.observe(bar));
+});
 
 // ========== PROJECTS FILTER & SEARCH ==========
 
@@ -256,7 +257,7 @@ class ProjectFilter {
 
 // Initialize on DOM load
 window.addEventListener('DOMContentLoaded', () => {
-    const projectFilter = new ProjectFilter();
+    new ProjectFilter();
 
     /* ========== Skill Bar Animation ========== */
     const skillBars = document.querySelectorAll('.bar-fill');

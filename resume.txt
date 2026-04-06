@@ -1,0 +1,146 @@
+================================================================================
+                        RITESH BISHT
+                    Frontend Web Developer
+================================================================================
+
+📧 Email: your.email@example.com | 📱 Phone: +91 XXXXXXXXXX
+🔗 GitHub: github.com/riteshbisht1106-ui | 💼 LinkedIn: linkedin.com/in/ritesh-bisht
+📍 Location: India
+
+================================================================================
+OBJECTIVE
+================================================================================
+Passionate and dedicated Frontend Developer with 6+ months of hands-on experience
+in web development. Seeking to leverage my skills in HTML, CSS, JavaScript, and
+modern frameworks to create beautiful, responsive, and user-centric web
+applications.
+
+================================================================================
+EDUCATION
+================================================================================
+Bachelor of Computer Applications (BCA)
+Currently in Year 1
+Expected Graduation: 2027
+
+Key Courses:
+• Web Development & Design
+• Programming Fundamentals
+• Database Management
+• Data Structures & Algorithms
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+✓ Certified Web Developer - MSME (Ministry of Micro, Small & Medium Enterprises)
+  Completed professional training and internship program (2024)
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+INTERNSHIP - MSME Center
+Duration: 6 Months (2024)
+• Built and deployed multiple full-stack web projects
+• Collaborated with team members on client projects
+• Implemented responsive designs and interactive features
+• Worked with modern web technologies and best practices
+• Gained experience in project deployment and maintenance
+
+FREELANCE PROJECTS
+• Developed 10+ projects focusing on responsive design
+• Portfolio projects include Weather App, To-Do List, Calculator, Quiz App
+• All projects deployed and accessible live
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Frontend Technologies:
+• HTML5 (90%)
+• CSS3 (85%)
+• JavaScript (80%)
+• React (70%)
+• Tailwind CSS (75%)
+
+Backend & Tools:
+• Node.js (65%)
+• Git & GitHub (80-85%)
+• Responsive Design
+• RESTful APIs
+• Form Validation
+
+Soft Skills:
+• Problem Solving
+• Team Collaboration
+• Client Communication
+• Quick Learner
+• Project Management
+
+================================================================================
+PROJECTS
+================================================================================
+
+1. WEATHER APP
+   • Real-time weather application with dynamic background effects
+   • Tech: HTML5, CSS3, JavaScript, Weather API
+   • Live Demo Available
+
+2. TO-DO LIST APPLICATION
+   • Productivity dashboard for task tracking
+   • Features: Add, Edit, Delete, Filter tasks
+   • Tech: HTML5, CSS3, JavaScript, Local Storage
+
+3. CALCULATOR
+   • Modern calculator with glassmorphism UI
+   • Advanced arithmetic operations
+   • Tech: HTML5, CSS3, JavaScript
+   • Live: riteshbisht1106-ui.github.io/calculator-/
+
+4. QUIZ APPLICATION
+   • Interactive multi-category quiz app
+   • Real-time score tracking and results
+   • Tech: HTML5, CSS3, JavaScript
+
+5. LANDING PAGE
+   • Professional business landing page
+   • Modern layouts and smooth animations
+   • Tech: HTML5, CSS3
+
+6. PORTFOLIO WEBSITE
+   • Personal developer portfolio
+   • Premium animations and responsive design
+   • Tech: HTML5, CSS3, JavaScript
+
+================================================================================
+ACHIEVEMENTS & HIGHLIGHTS
+================================================================================
+✓ Completed 6+ months intensive web development training
+✓ Earned MSME Web Developer Certification
+✓ Successfully internship experience with project deployment
+✓ Built and deployed 10+ projects
+✓ Maintained clean, organized, and well-documented code
+✓ Consistently learned and adapted to new technologies
+
+================================================================================
+LANGUAGES
+================================================================================
+• English (Fluent)
+• Hindi (Fluent)
+
+================================================================================
+INTERESTS
+================================================================================
+• Web Development & Design
+• User Experience (UX) Design
+• Modern JavaScript Frameworks
+• Open Source Contribution
+• Continuous Learning & Development
+• Building Interactive Web Applications
+
+================================================================================
+REFERENCES
+================================================================================
+Available upon request
+
+================================================================================
+Last Updated: April 2024
