@@ -3,9 +3,9 @@
                     Frontend Web Developer
 ================================================================================
 
-📧 Email: your.email@example.com | 📱 Phone: +91 XXXXXXXXXX
+📧 Email: riteshbisht1106@gmail.com | 📱 Phone: +91 9389833171
 🔗 GitHub: github.com/riteshbisht1106-ui | 💼 LinkedIn: linkedin.com/in/ritesh-bisht
-📍 Location: India
+📍 Location: Indore , M.P. India .
 
 ================================================================================
 OBJECTIVE
@@ -20,7 +20,7 @@ EDUCATION
 ================================================================================
 Bachelor of Computer Applications (BCA)
 Currently in Year 1
-Expected Graduation: 2027
+Expected Graduation: 2028
 
 Key Courses:
 • Web Development & Design
@@ -48,7 +48,7 @@ Duration: 6 Months (2024)
 
 FREELANCE PROJECTS
 • Developed 10+ projects focusing on responsive design
-• Portfolio projects include Weather App, To-Do List, Calculator, Quiz App
+• Portfolio projects include Weather App, fitness and calisthenics website , Calculator, Quiz App
 • All projects deployed and accessible live
 
 ================================================================================
@@ -85,10 +85,10 @@ PROJECTS
    • Tech: HTML5, CSS3, JavaScript, Weather API
    • Live Demo Available
 
-2. TO-DO LIST APPLICATION
-   • Productivity dashboard for task tracking
-   • Features: Add, Edit, Delete, Filter tasks
-   • Tech: HTML5, CSS3, JavaScript, Local Storage
+2. FITNESS AND CALISTHENICS 
+   • helping beginners start their journey 
+   • Building discipline through consistency 
+   • basic to advance course to skill in this sport 
 
 3. CALCULATOR
    • Modern calculator with glassmorphism UI
